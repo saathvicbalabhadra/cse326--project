@@ -1,0 +1,49 @@
+body {
+  background-image: url("");
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  background-size: cover;
+}
+
+/* navbar */
+nav{
+  color: red;
+  float: right;
+  margin:20px 20px;
+}
+nav ul{
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  transition: .1s;
+}
+nav ul li a{
+  text-decoration: none;
+  color: green;
+background: white;
+  transition: .2;
+  font-size: 20px;
+  margin-left:16px;
+}
+
+
+
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: -10px;
+  right: 500px;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
