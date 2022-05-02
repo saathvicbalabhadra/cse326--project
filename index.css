@@ -43,7 +43,7 @@ background: white;
 /* Bottom right text */
 .text-block {
   position: absolute;
-  bottom: -10px;
+  bottom: -40px;
   right: 500px;
   color: white;
   padding-left: 10px;
